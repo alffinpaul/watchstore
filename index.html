@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchStore</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+     <header class="bg-[#ffffff] text-black h-14 flex ">
+        <nav class="flex items-center justify-between w-[90%] mx-auto">
+            <a href="#" class="text-xl">Watch<span class="text-orange-500">Store</span></a>
+            <input class="peer hidden" type="checkbox" id="navbar-open">
+            <div class="peer-checked:block md:flex hidden  absolute md:static bg-white md:min-h-full min-h-[80vh] text-black left-0 top-[9%] md:w-auto w-full flex justify-center items-center">
+                <ul class="flex md:flex-row flex-col items-center justify-between md:gap-5 gap-8">
+                    <li><a class="text-lg font-normal hover:text-orange-500" href="#">Home</a></li>
+                    <li><a class="text-lg font-normal hover:text-orange-500" href="#">About</a></li>
+                    <li><a class="text-lg font-normal hover:text-orange-500" href="#">Contact</a></li>
+                    <li><a class="text-lg font-normal hover:text-orange-500" href="#">Blog</a></li>
+                    <li><a class="text-lg font-normal hover:text-orange-500" href="#">Login</a></li>
+                    <li><a class="text-lg font-normal hover:text-orange-500" href="#">Sign Up</a></li>
+                </ul>
+                
+            </div>
+            <div class="flex items-center gap-5">
+                <i class="fa-solid fa-magnifying-glass w-5"></i>
+                <label class="cursor-pointer" for="navbar-open">
+                    <i class="fa-solid fa-bars cursor-pointer  md:hidden"></i>
+                </label>
+            </div>
+            
+        </nav>
+     </header>
+    <!-- navbar end -->
+    <!-- hero section -->
+     <section>
+        <div class="hero grid text-center py-8 md:grid-cols-2 md:h-screen  md:text-left md:pl-28 md:">
+            <div class="hero-text md:my-auto">
+               
+                <h1 class="text-5xl leading-[4rem] font-bold sm:text-4xl md:text-7xl md:leading-[6rem]">Perfect <span  class="bg-orange-500 text-white">Watch</span> for <br> Perfect people</h1>
+                <p class="py-8">Discover Captivating Stories,Expand Your Knownledge,And
+                    <br> Embark on New Adventure</p>
+                <a class="bg-[#000000] text-white py-2 px-4 hover:bg-[#334155] inline-block" href="#">ORDER NOW</a>
+            </div>
+            <div class="hero-img place-items-center mx-auto md:my-auto">
+                <img class="max-w-16 md:max-w-2xl my-6" src="./images/HOMEWATCH.png" alt="antique phone background image">
+            </div>
+        </div>
+     </section>
+    <!-- hero section end -->
+    <!-- section 1 -->
+
+     <section id="section-1" class="py-5">
+        <div class="flex flex-col items-center text-center px-4">
+            <img class="md:w-[60%]" src="./images/cam1.png" alt="">
+            <br>
+            <span class="md:text-4xl text-xl font-semibold">PRODUCT OVERVIEW</span>
+        </div>
+     </section>
+    <!-- section 1 end -->
+    <!-- section 2 -->
+     <section class="section-2 py-8 my-16">
+        <div class="container w-4/5 grid grid-cols-1 md:grid-cols-2 m-auto">
+            <div class="flex place-items-center">
+                <img class="w-[60%] mx-auto"  data-aos="fade-right" src="./IMAGES/IMAGE2.png" alt="">
+            </div>
+            <div class="text-center md:text-left md:my-auto px-5"  >
+                <p class="px-15 text-justify md:px-0 md:text-left leading-[1.5rem] mb-2">Welcome to the Elegant World.Our Watches blend exquiste <br> craftsmanship with timeless design,making them perfect accessory<br> for  any occassion.Each timepiece is meticulously handcrafted to ensure superior quality and precision</p>
+                <a class="bg-[#000000] text-white mt-2 py-2 px-4 hover:bg-[#334155] inline-block" href="#">READ MORE</a>
+            </div>
+        </div>
+     </section>
+     <!-- Watch Collection Section -->
+<section id="watch-collection" class="py-16 bg-gray-100">
+    <div class="container mx-auto text-center px-4">
+        <h2 class="text-4xl font-bold mb-10">Our Watch Collection</h2>
+        <p class="text-lg text-gray-600 mb-12">Explore our exclusive collection of high-quality watches crafted with precision and style.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            
+            <!-- Watch Item 1 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./IMAGES/classicsilver.jpg" alt="Classic Silver Watch" class="w-full h-60 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Classic Silver Watch</h3>
+                    <p class="text-gray-700 mb-4">A timeless silver watch perfect for any occasion. Handcrafted with precision.</p>
+                    <a href="#" class="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600">Buy Now</a>
+                </div>
+            </div>
+            
+            <!-- Watch Item 2 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./IMAGES/gold1.avif" alt="Elegant Gold Watch" class="w-full h-60 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Elegant Gold Watch</h3>
+                    <p class="text-gray-700 mb-4">An elegant gold watch with a luxurious design, ideal for special events.</p>
+                    <a href="#" class="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600">Buy Now</a>
+                </div>
+            </div>
+
+            <!-- Watch Item 3 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./images/black.webp" alt="Modern Black Watch" class="w-full h-60 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Modern Black Watch</h3>
+                    <p class="text-gray-700 mb-4">A sleek and modern black watch that complements any outfit.</p>
+                    <a href="#" class="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600">Buy Now</a>
+                </div>
+            </div>
+
+            <!-- Additional watch items can be added similarly... -->
+            
+        </div>
+    </div>
+</section>
+
+       <footer class="bg-orange-500 py-8">
+        <div class="container text-center flex justify-center flex-col items-center">
+            <a href="#" class="text-xl mb-5">Watch<span class="text-white">Store</span></a>
+            <div class="icons w-[5rem] items-center flex justify-between">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <span class="my-5">STAY UP TO DATE</span>
+            <div class="container flex justify-center items-center mb-5">
+                <div class="relative"> 
+                  <input type="email" class="h-14  pl-10 pr-20 rounded-lg z-0 focus:shadow focus:outline-none" placeholder="Email address">
+                    <div class="absolute top-2 right-2">
+                        
+                        <button class="h-10 w-10 text-white rounded-lg  bg-slate-950 hover:bg-orange-500"><i class="fa-solid fa-arrow-right"></i></button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+       </footer>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
